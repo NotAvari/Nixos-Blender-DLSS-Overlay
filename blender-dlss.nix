@@ -1,4 +1,5 @@
 # pkgs/blender-dlss.nix
+# My blender is pinned to this rev - b6c718eef59f07c8179560c9dcb29715cdf3bf4e
 {
   lib,
   pkgs,
