@@ -1,9 +1,5 @@
 # Downloads
-1. 
-	```
-sudo pacman -S cuda cmake ninja git-lfs
-	```
-
+1. `sudo pacman -S cuda cmake ninja git-lfs`
 2. [`Optix`](https://developer.nvidia.com/designworks/optix/download)
 	1. `chmod +x ~/Downloads/NVIDIA-OptiX-SDK-9.1.0-linux64-x86_64.sh`
 	2. `sudo mkdir -p /opt/optix`
