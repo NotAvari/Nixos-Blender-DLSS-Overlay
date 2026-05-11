@@ -99,7 +99,7 @@ make release
 ```
 
 Make sure everything is found at configuration step
-![[Pasted image 20260219230643.png]]
+![alt text](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/found_compil.png?raw=true)
 
 ### 6.1
 
@@ -120,12 +120,14 @@ sudo ln -s /usr/lib/libIlmThread.so /usr/lib/libIlmThread.so.33
 
 ## 7. Copy DLSS `.so` libraries
 
-![[Pasted image 20260219232107.png]]
+![alt text](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/dlss_libs.png?raw=true)
+
 Make all of them executable, copy and paste inside the `bin` folder inside `build_linux_release`
 
+------------------------------------------
 
-
-# Making `make` work on distrobox
+# Distrobox Territory Stuff
+## Making `make` work on distrobox
 ```
 PATH="/usr/bin:$PATH" make release
 ```
