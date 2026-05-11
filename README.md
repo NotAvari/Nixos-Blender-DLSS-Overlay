@@ -8,7 +8,7 @@ Once I knew DLSS works in blender I got super obsessed with it.
 
 It's super cool, and it works on **Linux.** Please help me make it work on ***NixOS**.*
 
-> I'm too dumb to Nixifying it 🤓
+> I'm too dumb to Nixify it 🤓
 ![alt text|363](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/stupid_kiddo.png?raw=true)
 
 # You could help or just read 'my' guide and build blender with DLSS for yourself!
