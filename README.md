@@ -8,10 +8,10 @@ Once I knew DLSS works in blender I got super obsessed with it.
 
 It's super cool, and it works on **Linux.** Please help me make it work on ***NixOS**.*
 
-[![Watch the video](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/Thumbnail_DLSS.png)](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/Loonix%20DLSS%20Showcase.mp4)
+![alt text](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/gif_dlss512.gif?raw=true)
 
 > I'm too dumb to Nixify it 🤓
-![alt text|363](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/stupid_kiddo.png?raw=true)
+<img src="https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/stupid_kiddo.png?raw=true" alt="Stupid kiddo" width="300" />
 
 # You could help or just read 'my' guide and build blender with DLSS for yourself!
 
@@ -30,9 +30,9 @@ I tried to overlay the blender package from nixpkgs to make the thing. You can f
 
 The thing actually builds and you even get to choose DLLS as your Denoiser. 
 
-![alt text|847](https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/img/denoiser.png?raw=true)
+<img src="https://github.com/NotAvari/Nixos-Blender-DLSS-Overlay/blob/main/imgs/denoiser.png?raw=true" alt="denoiser" width="847" />
 
->But it doesn't work. I couldn't pinpoint the issue because I'm too dumb
+### But it doesn't work. I couldn't pinpoint the issue because I'm too dumb
 
 Everything relies heavily on `dlss.so` files that I place in the **same folder** where blender binary is.
 I know that most stuff should be done with `RPATH`, so I just copied `RPATH` from `.blender-wrapped` file to `dlss.so`, but it didn't help.
